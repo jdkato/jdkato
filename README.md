@@ -4,6 +4,7 @@ I'm a software engineer from Portland, OR. My interests mostly involve mathemati
 
 I'm the creator of [Vale](https://github.com/errata-ai/vale), a command-line tool that brings code-like linting to prose. I also wrote and maintain [`prose`](https://github.com/jdkato/prose), a natural language processing library for the Go programming language.
 
+You can find more of my work at the [**@errata.ai**](https://github.com/errata-ai) organization.
 
 <!--
 **jdkato/jdkato** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
