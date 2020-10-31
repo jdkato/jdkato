@@ -10,5 +10,5 @@ I'm the creator of [Vale](https://github.com/errata-ai/vale), a command-line too
 
 <p align="center">
   <a href="https://www.strava.com/athletes/33348244/activity-summary/525b9f08f186def183f5601b760f26ce1701ed2a">
-  <img src="https://user-images.githubusercontent.com/8785025/97791710-90982f80-1b92-11eb-9d40-d98687fdbccf.png"></a>
+  <img src="https://user-images.githubusercontent.com/8785025/97791755-0d2b0e00-1b93-11eb-8509-00768a8ef90f.png"></a>
 </p>
