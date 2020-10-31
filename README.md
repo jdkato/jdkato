@@ -4,7 +4,7 @@
 
 I'm the creator of [Vale](https://github.com/errata-ai/vale), a command-line tool that brings code-like linting to writing. I also wrote and maintain [`prose`](https://github.com/jdkato/prose), a natural language processing library for the Go programming language.
 
-- 🔭  I’m working on: [Docs as Code](https://www.writethedocs.org/guide/docs-as-code/), [NLP](https://github.com/topics/natural-language-processing?l=go), and [data science](https://github.com/leipzig/awesome-reproducible-research)
+- 🔭  I’m working on: [*Docs as Code*](https://github.com/errata-ai), [NLP](https://github.com/jdkato/prose), and [data science](https://github.com/OpenPDI)
 - 😄 Pronouns: He/Him
 - ⚡ Fun fact: I like to run :running:
 
