@@ -20,7 +20,9 @@ Gurubase
 haskell
 Homebrew
 ignorecase
+impactful
 Joblint
+Keybase
 kincaid
 liau
 Linode
