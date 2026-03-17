@@ -1,0 +1,32 @@
+name: Build + Lint
+
+on: push
+
+jobs:
+  lint:
+    name: runner / vale
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: errata-ai/vale-action@v2.1.1
+        with:
+          files: README.md
+          debug: true
+          fail_on_error: true
+          reporter: github-check
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+  lint2:
+    name: runner / vale
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: errata-ai/vale-action@v2
+        with:
+          files: README.md
+          debug: true
+          fail_on_error: true
+          reporter: github-check
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
