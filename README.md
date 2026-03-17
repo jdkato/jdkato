@@ -6,12 +6,7 @@ Hi,
 
 I'm Joseph.
 
-I'm the creator/maintainer of the [Vale](https://github.com/errata-ai/vale) ecosystem of software. I also wrote [`prose`](https://github.com/jdkato/prose), a library for Natural Language Processing in Go. 
-
-#### 🚀 Impact at Scale
-
-* 📊 **10M+ downloads** across multiple industries.
-* 💼 Trusted by teams at **Amazon**, **Microsoft**, **GitLab**, **Docker**, and many more.
+I'm the creator/maintainer of the [Vale](https://github.com/errata-ai/vale) ecosystem of software. I also wrote [`prose`](https://github.com/jdkato/prose), a library for Natural Language Processing in Go.
 
 #### 📰 Press & Recognition
 
