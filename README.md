@@ -15,9 +15,11 @@ I'm the creator/maintainer of the [Vale](https://github.com/errata-ai/vale) ecos
 * **[Golang Weekly][2]** – Featured multiple times for developments in Go-based NLP and system tooling.
 * **[Write Better with Vale: Automate Your Style Guides][3]**: Automate Your Style Guides and Lint Prose Like You Lint Code.
 * **[Appwrite OSS Fund][5]**: Selected as one of twenty projects for the Appwrite OSS Fund.
+* **[Go For Data Science and Natural Language Processing (Golang)][6]**: Featured in a Udemy course for my work in the Go and NLP.
 
 [1]: https://opensource.googleblog.com/2023/05/google-open-source-peer-bonus-program-announces-first-group-of-winners-2023.html
 [2]: https://golangweekly.com
 [3]: https://pragprog.com/titles/bhvale/write-better-with-vale/
 [4]: https://floss.fund/blog/second-tranche-2025-anniversary/
 [5]: https://dev.to/appwrite/appwrite-oss-fund-sponsors-vale-4oig
+[6]: https://www.udemy.com/course/go-for-data-science-and-natural-language-processing-golang/
