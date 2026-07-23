@@ -10,7 +10,7 @@ I'm the creator/maintainer of the [Vale](https://github.com/errata-ai/vale) ecos
 
 #### 📰 Press & Recognition
 
-* **[FLOSS/fund][4]: Awarded $10,000 as part of the second tranche of the FLOSS/fund open-spurce initiative.
+* **[FLOSS/fund][4]**: Awarded $10,000 as part of the second tranche of the FLOSS/fund open-spurce initiative.
 * **[Google Open Source Peer Bonus][1]** – Recipient for impactful contributions to the OSS community.
 * **[Golang Weekly][2]** – Featured multiple times for developments in Go-based NLP and system tooling.
 * **[Write Better with Vale: Automate Your Style Guides][3]**: Automate Your Style Guides and Lint Prose Like You Lint Code.
