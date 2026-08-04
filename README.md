@@ -8,6 +8,8 @@ I'm Joseph.
 
 I'm the creator/maintainer of the [Vale](https://github.com/errata-ai/vale) ecosystem of software. I also wrote [`prose`](https://github.com/jdkato/prose), a library for Natural Language Processing in Go.
 
+More at [jdkato.io](https://www.jdkato.io/).
+
 #### 📰 Press & Recognition
 
 * **[FLOSS/fund][4]** - Awarded $10,000 as part of the second tranche of the FLOSS/fund open-source initiative.
