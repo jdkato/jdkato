@@ -68,8 +68,12 @@ brew install vale && vale sync && vale README.md
 * **[Write Better with Vale][3]**, a Pragmatic Bookshelf title on automating style guides.
 * **[Google Open Source Peer Bonus][1]** recipient, 2023.
 * Featured in **[Golang Weekly][2]** for Go-based NLP and tooling.
+* **[Appwrite OSS Fund][5]** grantee, one of twenty projects selected.
+* Featured in a Udemy course, **[Go for Data Science and Natural Language Processing][6]**, for prose and Go NLP.
 * Want to talk prose linting, docs tooling, or a data story? Email me.
 
 [1]: https://opensource.googleblog.com/2023/05/google-open-source-peer-bonus-program-announces-first-group-of-winners-2023.html
 [2]: https://golangweekly.com
 [3]: https://pragprog.com/titles/bhvale/write-better-with-vale/
+[5]: https://dev.to/appwrite/appwrite-oss-fund-sponsors-vale-4oig
+[6]: https://www.udemy.com/course/go-for-data-science-and-natural-language-processing-golang/
