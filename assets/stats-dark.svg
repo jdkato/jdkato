@@ -1,25 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="150" viewBox="0 0 760 150" role="img" aria-label="Vale by the numbers">
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="320" viewBox="0 0 760 320" role="img" aria-label="Vale by the numbers">
 <title>Vale by the numbers</title>
-<rect x="0.5" y="0.5" width="759" height="149" rx="8" fill="#1a1a19" stroke="#333331"/>
-<text x="24" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#c3c2b7" letter-spacing="0.06em">VALE BY THE NUMBERS</text>
-<text x="736" y="34" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#c3c2b7">updated 2026-09-04</text>
-<text x="24.0" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="34" font-weight="600" fill="#ffffff">13M</text>
-<text x="24.0" y="111" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff">downloads</text>
-<text x="24.0" y="127" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#c3c2b7">GitHub + Docker Hub</text>
-<line x1="166.4" y1="56" x2="166.4" y2="126" stroke="#333331"/>
-<text x="178.4" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="34" font-weight="600" fill="#ffffff">6.1K</text>
-<text x="178.4" y="111" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff">stars</text>
-<text x="178.4" y="127" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#c3c2b7">on vale-cli/vale</text>
-<line x1="308.8" y1="56" x2="308.8" y2="126" stroke="#333331"/>
-<text x="320.8" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="34" font-weight="600" fill="#ffffff">91K</text>
-<text x="320.8" y="111" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff">VS Code installs</text>
-<text x="320.8" y="127" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#c3c2b7">Vale Linter extension</text>
-<line x1="451.2" y1="56" x2="451.2" y2="126" stroke="#333331"/>
-<text x="463.2" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="34" font-weight="600" fill="#ffffff">77K</text>
-<text x="463.2" y="111" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff">Homebrew installs</text>
-<text x="463.2" y="127" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#c3c2b7">last 365 days</text>
-<line x1="593.6" y1="56" x2="593.6" y2="126" stroke="#333331"/>
-<text x="605.6" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="34" font-weight="600" fill="#ffffff">199</text>
-<text x="605.6" y="111" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff">releases</text>
-<text x="605.6" y="127" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#c3c2b7">since 2017</text>
+<rect width="760" height="320" fill="#1a1a1c"/>
+<rect x="40" y="39" width="14" height="14" fill="#e87ba4"/>
+<text x="64" y="51" font-family="'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700" letter-spacing="0.18em" fill="#f4f2ea">JDKATO<tspan fill="#a4a29a"> · VALE</tspan></text>
+<text x="720" y="51" text-anchor="end" font-family="'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="0.08em" fill="#a4a29a">UPDATED 2026-09-04</text>
+<text x="38" y="132" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="72" font-weight="800" font-style="italic" letter-spacing="-0.03em" fill="#f4f2ea">13M DOWNLOADS</text>
+<text x="40" y="160" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" fill="#a4a29a">GitHub releases and Docker Hub pulls of the Vale CLI since 2017.</text>
+<text x="40" y="208" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#f4f2ea">6.1K</text>
+<text x="40" y="226" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" fill="#a4a29a">stars</text>
+<text x="210" y="208" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#f4f2ea">91K</text>
+<text x="210" y="226" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" fill="#a4a29a">VS Code installs</text>
+<text x="380" y="208" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#f4f2ea">77K</text>
+<text x="380" y="226" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" fill="#a4a29a">Homebrew installs / yr</text>
+<text x="550" y="208" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#f4f2ea">199</text>
+<text x="550" y="226" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" fill="#a4a29a">releases</text>
+<line x1="40" y1="242" x2="720" y2="242" stroke="#333236"/>
+<rect x="40" y="280" width="22" height="2" fill="#5a3a48"><title>2017: 44,928 downloads</title></rect>
+<rect x="68" y="280" width="22" height="2" fill="#5a3a48"><title>2018: 33,030 downloads</title></rect>
+<rect x="96" y="280" width="22" height="2" fill="#5a3a48"><title>2019: 88,130 downloads</title></rect>
+<rect x="124" y="279" width="22" height="3" fill="#5a3a48"><title>2020: 356,089 downloads</title></rect>
+<rect x="152" y="280" width="22" height="2" fill="#5a3a48"><title>2021: 218,597 downloads</title></rect>
+<rect x="180" y="275" width="22" height="7" fill="#5a3a48"><title>2022: 760,832 downloads</title></rect>
+<rect x="208" y="262" width="22" height="20" fill="#5a3a48"><title>2023: 2,162,991 downloads</title></rect>
+<rect x="236" y="248" width="22" height="34" fill="#e87ba4"><title>2024: 3,611,434 downloads</title></rect>
+<rect x="264" y="261" width="22" height="21" fill="#5a3a48"><title>2025: 2,207,420 downloads</title></rect>
+<rect x="292" y="268" width="22" height="14" fill="#5a3a48"><title>2026: 1,441,651 downloads</title></rect>
+<text x="40" y="296" font-family="'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#a4a29a">2017</text>
+<text x="314" y="296" text-anchor="end" font-family="'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#a4a29a">2026</text>
+<text x="330" y="278" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" fill="#a4a29a">downloads by release year · peak 2024, 3.6M</text>
+<text x="720" y="280" text-anchor="end" font-family="'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="700" letter-spacing="0.06em" fill="#a4a29a">jdkato.io</text>
 </svg>
