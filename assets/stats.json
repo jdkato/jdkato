@@ -1,0 +1,15 @@
+{
+  "brew_installs_365d": 76817,
+  "docker_pulls": 2245252,
+  "downloads": 13169795,
+  "gh_downloads": 10924543,
+  "latest_date": "2026-09-02",
+  "latest_tag": "v3.20.0",
+  "latest_url": "https://github.com/vale-cli/vale/releases/tag/v3.20.0",
+  "prose_stars": 3086,
+  "releases": 199,
+  "updated": "2026-09-04",
+  "vale_stars": 6077,
+  "vscode_installs": 91154,
+  "years": 9.54962354551677
+}

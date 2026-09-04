@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="150" viewBox="0 0 760 150" role="img" aria-label="Vale by the numbers">
+<title>Vale by the numbers</title>
+<rect x="0.5" y="0.5" width="759" height="149" rx="8" fill="#fcfcfb" stroke="#e4e3df"/>
+<text x="24" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#52514e" letter-spacing="0.06em">VALE BY THE NUMBERS</text>
+<text x="736" y="34" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#52514e">updated 2026-09-04</text>
+<text x="24.0" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="34" font-weight="600" fill="#0b0b0b">13M</text>
+<text x="24.0" y="111" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#0b0b0b">downloads</text>
+<text x="24.0" y="127" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#52514e">GitHub + Docker Hub</text>
+<line x1="166.4" y1="56" x2="166.4" y2="126" stroke="#e4e3df"/>
+<text x="178.4" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="34" font-weight="600" fill="#0b0b0b">6.1K</text>
+<text x="178.4" y="111" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#0b0b0b">stars</text>
+<text x="178.4" y="127" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#52514e">on vale-cli/vale</text>
+<line x1="308.8" y1="56" x2="308.8" y2="126" stroke="#e4e3df"/>
+<text x="320.8" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="34" font-weight="600" fill="#0b0b0b">91K</text>
+<text x="320.8" y="111" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#0b0b0b">VS Code installs</text>
+<text x="320.8" y="127" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#52514e">Vale Linter extension</text>
+<line x1="451.2" y1="56" x2="451.2" y2="126" stroke="#e4e3df"/>
+<text x="463.2" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="34" font-weight="600" fill="#0b0b0b">77K</text>
+<text x="463.2" y="111" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#0b0b0b">Homebrew installs</text>
+<text x="463.2" y="127" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#52514e">last 365 days</text>
+<line x1="593.6" y1="56" x2="593.6" y2="126" stroke="#e4e3df"/>
+<text x="605.6" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="34" font-weight="600" fill="#0b0b0b">199</text>
+<text x="605.6" y="111" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#0b0b0b">releases</text>
+<text x="605.6" y="127" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#52514e">since 2017</text>
+</svg>
