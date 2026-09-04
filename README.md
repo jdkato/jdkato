@@ -4,7 +4,7 @@
 
 I'm Joseph. I make things and write about them.
 
-Since 2017 that has meant [Vale](https://github.com/vale-cli/vale), a linter that treats prose like code, used by docs teams at AWS, Microsoft, GitLab, and Red Hat. Lately it means teaching Vale to work alongside coding assistants: [agent-tools](https://github.com/vale-cli/agent-tools) ships it as Claude Code skills, an edit-time hook, and an MCP server. Before that I wrote [prose](https://github.com/jdkato/prose), a Natural Language Processing library for Go.
+Since 2017 that has meant [Vale](https://github.com/vale-cli), a linter that treats prose like code, used by docs teams at AWS, Microsoft, GitLab, and Red Hat. Lately it means teaching Vale to work alongside coding assistants: [agent-tools](https://github.com/vale-cli/agent-tools) ships it as Claude Code skills, an edit-time hook, and an MCP server. Before that I wrote [prose](https://github.com/jdkato/prose), a Natural Language Processing library for Go.
 
 On [jdkato.io](https://jdkato.io) I point the same habit at public data: how much arXiv abstracts hedge, who talks at Supreme Court oral argument, what 89,000 graded NBA calls say about referees, and whether vibe-coded pull requests actually burden maintainers.
 
@@ -28,22 +28,6 @@ On [jdkato.io](https://jdkato.io) I point the same habit at public data: how muc
 * Shipping Vale. The latest release is [v3.20.0](https://github.com/vale-cli/vale/releases/tag/v3.20.0), published 2026-09-02.
 <!-- release:end -->
 * Building [agent-tools](https://github.com/vale-cli/agent-tools), so prose linting happens inside coding assistants.
-
-#### 🧰 The Vale ecosystem
-
-| Project | What it does |
-| --- | --- |
-| [vale](https://github.com/vale-cli/vale) | The linter itself. Markup-aware, fast, and extensible. Written in Go. |
-| [packages](https://github.com/vale-cli/packages) | Ready-made style guides: Microsoft, Google, IBM, write-good, proselint, and more. |
-| [vale-ls](https://github.com/vale-cli/vale-ls) | A Language Server Protocol implementation, so Vale works in any editor. |
-| [vale-action](https://github.com/vale-cli/vale-action) | The official GitHub Action. It lints this README on every push. |
-| [agent-tools](https://github.com/vale-cli/agent-tools) | Skills, an edit-time hook, and an MCP server for coding assistants. |
-
-Try it:
-
-```sh
-brew install vale && vale sync && vale README.md
-```
 
 #### 📌 Elsewhere
 
