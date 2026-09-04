@@ -1,3 +1,5 @@
+# Joseph Kato
+
 [![Website](https://img.shields.io/badge/-jdkato.io-000?style=flat-square&logo=svelte&logoColor=ff3e00&color=f0f1f1)](https://jdkato.io) [![Vale](https://img.shields.io/badge/-vale.sh-000?style=flat-square&logo=go&logoColor=00ADD8&color=f0f1f1)](https://vale.sh) [![Email](https://img.shields.io/badge/-joseph@jdkato.io-c14438?style=flat-square&logo=Gmail&logoColor=BB001B&color=f0f1f1)](mailto:joseph@jdkato.io) [![Sponsor](https://img.shields.io/badge/-Sponsor-ea4aaa?style=flat-square&logo=githubsponsors&logoColor=ea4aaa&color=f0f1f1)](https://github.com/sponsors/jdkato) [![Vale lint](https://github.com/jdkato/jdkato/actions/workflows/main.yml/badge.svg)](https://github.com/jdkato/jdkato/actions/workflows/main.yml)
 
 I'm Joseph. I make things and write about them.
