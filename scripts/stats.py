@@ -11,7 +11,6 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
-from html import escape
 
 GH_TOKEN = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
 ROOT = os.path.join(os.path.dirname(__file__), "..")
@@ -138,7 +137,7 @@ def svg(stats, t):
     parts.append("</svg>")
     return "\n".join(parts)
 
-def essays(limit=3):
+def essays(limit=2):
     req = urllib.request.Request(FEED, headers={"User-Agent": "jdkato-profile-stats"})
     with urllib.request.urlopen(req, timeout=30) as r:
         root = ET.fromstring(r.read())
@@ -151,49 +150,6 @@ def essays(limit=3):
             "blurb": item.findtext("description"),
         })
     return out[:limit]
-
-
-TIMELINE = [
-    ("2016", "Tombstone.js", "propositional logic"),
-    ("2017", "Vale + prose", "prose linting, NLP in Go"),
-    ("2019", "vale-action + packages", "CI and style guides"),
-    ("2022", "vale-ls", "Vale in any editor"),
-    ("2023", "Google Peer Bonus", "open source award"),
-    ("2024", "Vale 3.0", "the current major"),
-    ("2025", "Write Better with Vale", "the book"),
-    ("2026", "agent-tools", "Vale for coding assistants"),
-]
-
-
-def timeline_svg(t):
-    """Milestones on one line, labels staggered above and below so they never collide."""
-    w, h, pad = 760, 150, 24
-    n = len(TIMELINE)
-    step = (w - 2 * pad) / (n - 1)
-    y = h / 2 + 4
-    font = "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
-    parts = [
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" '
-        f'aria-label="Timeline, 2016 to 2026">',
-        "<title>Timeline</title>",
-        f'<rect x="0.5" y="0.5" width="{w-1}" height="{h-1}" rx="8" fill="{t["bg"]}" stroke="{t["border"]}"/>',
-        f'<line x1="{pad}" y1="{y}" x2="{w-pad}" y2="{y}" stroke="{t["border"]}" stroke-width="2"/>',
-    ]
-    for i, (year, title, sub) in enumerate(TIMELINE):
-        x = pad + i * step
-        anchor = "start" if i == 0 else "end" if i == n - 1 else "middle"
-        last = i == n - 1
-        below = i % 2 == 0
-        ys = (y + 22, y + 39, y + 55) if below else (y - 46, y - 29, y - 13)
-        parts += [
-            f'<line x1="{x:.1f}" y1="{y}" x2="{x:.1f}" y2="{y + 10 if below else y - 10}" stroke="{t["border"]}"/>',
-            f'<circle cx="{x:.1f}" cy="{y}" r="5" fill="{t["accent"] if last else t["bg"]}" stroke="{t["accent"]}" stroke-width="2"/>',
-            f'<text x="{x:.1f}" y="{ys[0]}" text-anchor="{anchor}" font-family="{font}" font-size="11" font-weight="600" fill="{t["muted"]}">{year}</text>',
-            f'<text x="{x:.1f}" y="{ys[1]}" text-anchor="{anchor}" font-family="{font}" font-size="12" font-weight="600" fill="{t["text"]}">{escape(title)}</text>',
-            f'<text x="{x:.1f}" y="{ys[2]}" text-anchor="{anchor}" font-family="{font}" font-size="11" fill="{t["muted"]}">{escape(sub)}</text>',
-        ]
-    parts.append("</svg>")
-    return "\n".join(parts)
 
 
 def splice(text, name, body):
@@ -225,8 +181,6 @@ def main():
     for name, theme in THEMES.items():
         with open(os.path.join(OUT, f"stats-{name}.svg"), "w") as f:
             f.write(svg(stats, theme))
-        with open(os.path.join(OUT, f"timeline-{name}.svg"), "w") as f:
-            f.write(timeline_svg(theme))
     update_readme(stats, essays())
     with open(os.path.join(OUT, "stats.json"), "w") as f:
         json.dump(stats, f, indent=2, sort_keys=True)
