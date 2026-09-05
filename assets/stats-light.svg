@@ -3,7 +3,7 @@
 <rect width="760" height="320" fill="#f4f2ea"/>
 <rect x="40" y="39" width="14" height="14" fill="#e87ba4"/>
 <text x="64" y="51" font-family="'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700" letter-spacing="0.18em" fill="#1a1a1a">JDKATO<tspan fill="#6f6d66"> · VALE</tspan></text>
-<text x="720" y="51" text-anchor="end" font-family="'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="0.08em" fill="#6f6d66">UPDATED 2026-09-04</text>
+<text x="720" y="51" text-anchor="end" font-family="'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="0.08em" fill="#6f6d66">UPDATED 2026-09-05</text>
 <text x="38" y="132" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="72" font-weight="800" font-style="italic" letter-spacing="-0.03em" fill="#1a1a1a">13M DOWNLOADS</text>
 <text x="40" y="160" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" fill="#6f6d66">GitHub releases and Docker Hub pulls of the Vale CLI since 2017.</text>
 <text x="40" y="208" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#1a1a1a">6.1K</text>
@@ -16,15 +16,15 @@
 <text x="550" y="226" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" fill="#6f6d66">releases</text>
 <line x1="40" y1="242" x2="720" y2="242" stroke="#e3e1d9"/>
 <rect x="40" y="280" width="22" height="2" fill="#efc2ce"><title>2017: 44,928 downloads</title></rect>
-<rect x="68" y="280" width="22" height="2" fill="#efc2ce"><title>2018: 33,030 downloads</title></rect>
+<rect x="68" y="280" width="22" height="2" fill="#efc2ce"><title>2018: 33,031 downloads</title></rect>
 <rect x="96" y="280" width="22" height="2" fill="#efc2ce"><title>2019: 88,130 downloads</title></rect>
-<rect x="124" y="279" width="22" height="3" fill="#efc2ce"><title>2020: 356,089 downloads</title></rect>
-<rect x="152" y="280" width="22" height="2" fill="#efc2ce"><title>2021: 218,597 downloads</title></rect>
-<rect x="180" y="275" width="22" height="7" fill="#efc2ce"><title>2022: 760,832 downloads</title></rect>
-<rect x="208" y="262" width="22" height="20" fill="#efc2ce"><title>2023: 2,162,991 downloads</title></rect>
-<rect x="236" y="248" width="22" height="34" fill="#e87ba4"><title>2024: 3,611,434 downloads</title></rect>
-<rect x="264" y="261" width="22" height="21" fill="#efc2ce"><title>2025: 2,207,420 downloads</title></rect>
-<rect x="292" y="268" width="22" height="14" fill="#efc2ce"><title>2026: 1,441,651 downloads</title></rect>
+<rect x="124" y="279" width="22" height="3" fill="#efc2ce"><title>2020: 356,136 downloads</title></rect>
+<rect x="152" y="280" width="22" height="2" fill="#efc2ce"><title>2021: 218,601 downloads</title></rect>
+<rect x="180" y="275" width="22" height="7" fill="#efc2ce"><title>2022: 760,886 downloads</title></rect>
+<rect x="208" y="262" width="22" height="20" fill="#efc2ce"><title>2023: 2,163,231 downloads</title></rect>
+<rect x="236" y="248" width="22" height="34" fill="#e87ba4"><title>2024: 3,612,857 downloads</title></rect>
+<rect x="264" y="261" width="22" height="21" fill="#efc2ce"><title>2025: 2,209,353 downloads</title></rect>
+<rect x="292" y="268" width="22" height="14" fill="#efc2ce"><title>2026: 1,457,226 downloads</title></rect>
 <text x="40" y="296" font-family="'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#6f6d66">2017</text>
 <text x="314" y="296" text-anchor="end" font-family="'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#6f6d66">2026</text>
 <text x="330" y="278" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" fill="#6f6d66">downloads by release year · peak 2024, 3.6M</text>
