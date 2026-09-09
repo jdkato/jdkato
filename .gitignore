@@ -1,3 +1,4 @@
 .DS_Store
 .github/styles/Microsoft/
 .github/styles/Readability/
+scripts/__pycache__/
