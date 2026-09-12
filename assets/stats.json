@@ -1,8 +1,8 @@
 {
-  "docker_pulls": 2255321,
-  "downloads": 13413592,
-  "gh_downloads": 11158271,
+  "docker_pulls": 2256600,
+  "downloads": 13445637,
+  "gh_downloads": 11189037,
   "releases": 200,
-  "updated": "2026-09-11",
-  "vale_stars": 6096
+  "updated": "2026-09-12",
+  "vale_stars": 6100
 }
