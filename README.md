@@ -33,7 +33,7 @@ Scientists are trained to qualify their claims. Across 2,400 arXiv abstracts, ho
 <!-- releases:end -->
 
 <!-- stats:start -->
-<sub>Vale so far: 13M downloads, 6.1K stars, 200 releases since 2017.</sub>
+<sub>Vale so far: 14M downloads, 6.1K stars, 200 releases since 2017.</sub>
 <!-- stats:end -->
 
 </td></tr></table>
