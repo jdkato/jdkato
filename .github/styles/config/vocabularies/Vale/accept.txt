@@ -58,3 +58,4 @@ LLMs
 Codeberg
 Udemy
 Kato
+Solana

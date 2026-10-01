@@ -43,6 +43,7 @@ Scientists are trained to qualify their claims. Across 2,400 arXiv abstracts, ho
 * **[Write Better with Vale][3]**, a Pragmatic Bookshelf title on automating style guides.
 * **[Google Open Source Peer Bonus][1]** recipient, 2023.
 * **[Appwrite OSS Fund][5]** grantee, one of twenty projects selected.
+* **Vale on Solana:** `3xgJh5hwn6SMZ2XgsxYRLtos3AEKEgPyBepx529Tpump`
 * Want to talk prose linting, docs tooling, or a data story? Email me.
 
 <sub>Refreshed nightly by [`scripts/stats.py`](scripts/stats.py). Vale lints this README on every push.</sub>
