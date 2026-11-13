@@ -26,14 +26,14 @@ Scientists are trained to qualify their claims. Across 2,400 arXiv abstracts, ho
 #### 📦 Recent releases
 
 <!-- releases:start -->
-- [vale](https://github.com/vale-cli/vale) [v3.26.0](https://github.com/vale-cli/vale/releases/tag/v3.26.0) <sub>Oct 31, 2026</sub>
+- [vale](https://github.com/vale-cli/vale) [v3.27.0](https://github.com/vale-cli/vale/releases/tag/v3.27.0) <sub>Nov 12, 2026</sub>
+- [prose](https://github.com/jdkato/prose) [models-v3.3.1](https://github.com/jdkato/prose/releases/tag/models-v3.3.1) <sub>Nov 12, 2026</sub>
 - [vale-ls](https://github.com/vale-cli/vale-ls) [v0.6.0](https://github.com/vale-cli/vale-ls/releases/tag/v0.6.0) <sub>Oct 1, 2026</sub>
 - [packages](https://github.com/vale-cli/packages) [v0.5.0](https://github.com/vale-cli/packages/releases/tag/v0.5.0) <sub>Sep 28, 2026</sub>
-- [vale-action](https://github.com/vale-cli/vale-action) [v3.0.0](https://github.com/vale-cli/vale-action/releases/tag/v3.0.0) <sub>Aug 3, 2026</sub>
 <!-- releases:end -->
 
 <!-- stats:start -->
-<sub>Vale so far: 17M downloads, 6.4K stars, 206 releases since 2017.</sub>
+<sub>Vale so far: 17M downloads, 6.4K stars, 207 releases since 2017.</sub>
 <!-- stats:end -->
 
 </td></tr></table>
