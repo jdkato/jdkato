@@ -11,14 +11,14 @@ The making is mostly [Vale](https://github.com/vale-cli), a linter that treats p
 #### ✍️ Latest stories
 
 <!-- essays:start -->
-<a href="https://jdkato.io/stories/arxiv-hedging"><img src="https://jdkato.io/og/arxiv-hedging.png" alt="The hedge words of science" width="100%"></a>
+<a href="https://www.jdkato.io/stories/arxiv-ai-tells"><img src="https://www.jdkato.io/og/arxiv-ai-tells.png" alt="AI Tells: the words that left" width="100%"></a>
 
-Scientists are trained to qualify their claims. Across 2,400 arXiv abstracts, how much a field hedges turns out to track something simpler than caution — whether it observes the world or proves things about it. And despite the reputation, hedging isn't on the rise.
+On GitHub, the vocabulary everyone blames on language models is still climbing. I ran the same word list over 25,000 arXiv abstracts expecting the same line. Science got there a year earlier, peaked in early 2025, and has been handing the words back ever since.
 
-- [The hedge words of science](https://jdkato.io/stories/arxiv-hedging) <sub>Aug 2026</sub>
-- [AI Tells: the burden of LLMs](https://jdkato.io/stories/github-ai-tells) <sub>Aug 2026</sub>
-- [Who does the talking](https://jdkato.io/stories/scotus-oral-argument) <sub>Jun 2026</sub>
-- [The whistle they didn't blow](https://jdkato.io/stories/l2m-officiating) <sub>Mar 2026</sub>
+- [AI Tells: the words that left](https://www.jdkato.io/stories/arxiv-ai-tells) <sub>Nov 2026</sub>
+- [Did the Plain Writing Act work?](https://www.jdkato.io/stories/plain-writing-act) <sub>Nov 2026</sub>
+- [The hedge words of science](https://www.jdkato.io/stories/arxiv-hedging) <sub>Aug 2026</sub>
+- [AI Tells: the burden of LLMs](https://www.jdkato.io/stories/github-ai-tells) <sub>Aug 2026</sub>
 <!-- essays:end -->
 
 </td><td valign="top" width="50%">
@@ -26,14 +26,14 @@ Scientists are trained to qualify their claims. Across 2,400 arXiv abstracts, ho
 #### 📦 Recent releases
 
 <!-- releases:start -->
-- [vale](https://github.com/vale-cli/vale) [v3.27.0](https://github.com/vale-cli/vale/releases/tag/v3.27.0) <sub>Nov 12, 2026</sub>
+- [vale](https://github.com/vale-cli/vale) [v3.28.1](https://github.com/vale-cli/vale/releases/tag/v3.28.1) <sub>Nov 19, 2026</sub>
 - [prose](https://github.com/jdkato/prose) [models-v3.3.1](https://github.com/jdkato/prose/releases/tag/models-v3.3.1) <sub>Nov 12, 2026</sub>
 - [vale-ls](https://github.com/vale-cli/vale-ls) [v0.6.0](https://github.com/vale-cli/vale-ls/releases/tag/v0.6.0) <sub>Oct 1, 2026</sub>
 - [packages](https://github.com/vale-cli/packages) [v0.5.0](https://github.com/vale-cli/packages/releases/tag/v0.5.0) <sub>Sep 28, 2026</sub>
 <!-- releases:end -->
 
 <!-- stats:start -->
-<sub>Vale so far: 17M downloads, 6.4K stars, 207 releases since 2017.</sub>
+<sub>Vale so far: 17M downloads, 6.4K stars, 209 releases since 2017.</sub>
 <!-- stats:end -->
 
 </td></tr></table>
