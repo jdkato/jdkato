@@ -12,6 +12,7 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
+from html import escape
 
 GH_TOKEN = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
 ROOT = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
@@ -101,7 +102,59 @@ def essays(limit=4):
             "link": item.findtext("link"),
             "date": parsedate_to_datetime(item.findtext("pubDate")).strftime("%b %Y"),
         })
-    return out[:limit]
+    out = out[:limit]
+    if out:
+        out[0]["image"] = og_image(out[0]["link"])
+    return out
+
+
+def og_image(url):
+    req = urllib.request.Request(url, headers={"User-Agent": "jdkato-profile-stats"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        html = r.read().decode("utf-8", "replace")
+    m = re.search(r'property="og:image" content="([^"]+)"', html)
+    return m.group(1) if m else url.rstrip("/").replace("/stories/", "/og/") + ".png"
+
+
+SANS = "'Helvetica Neue', Helvetica, Arial, sans-serif"
+MONO = "SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace"
+SWATCH = ["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e05a8d", "#3a9b3a", "#8b7cf0"]
+
+
+def banner(stats):
+    """Draw the header card in the same style as jdkato.io's summary page."""
+    cells = [
+        (compact(stats["downloads"]), "DOWNLOADS"),
+        (compact(stats["vale_stars"]), "GITHUB STARS"),
+        (str(stats["releases"]), "RELEASES"),
+        ("2017", "MAINTAINING SINCE"),
+    ]
+    w, h = 1200, 418
+    out = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}">',
+        f'<rect width="{w}" height="{h}" rx="18" fill="#f4f2ea"/>',
+    ]
+    for i, c in enumerate(SWATCH):
+        out.append(f'<rect x="{64 + 12 * i}" y="58" width="12" height="12" fill="{c}"/>')
+    out += [
+        f'<text x="168" y="69" font-family="{MONO}" font-size="14" letter-spacing="3" fill="#77756e">JDKATO.IO  ·  VALE.SH</text>',
+        f'<text x="1136" y="69" text-anchor="end" font-family="{MONO}" font-size="14" letter-spacing="3" fill="#77756e">AS OF {stats["updated"]}</text>',
+        '<line x1="64" y1="92" x2="1136" y2="92" stroke="#d9d6cc" stroke-width="2"/>',
+        f'<text x="60" y="196" font-family="{SANS}" font-size="96" font-weight="900" font-style="italic" letter-spacing="-4" fill="#1a1a1a">JOSEPH KATO</text>',
+        f'<text x="64" y="236" font-family="{MONO}" font-size="15" font-weight="700" letter-spacing="3" fill="#1a1a1a">MATHEMATICIAN  ·  COMPUTATIONAL LINGUIST  ·  SOFTWARE DEVELOPER</text>',
+        '<rect x="64" y="272" width="1072" height="88" fill="none" stroke="#d9d6cc" stroke-width="2"/>',
+    ]
+    step = 1072 / len(cells)
+    for i, (value, label) in enumerate(cells):
+        x = 64 + step * i
+        if i:
+            out.append(f'<line x1="{x:.0f}" y1="286" x2="{x:.0f}" y2="346" stroke="#d9d6cc" stroke-width="2"/>')
+        out += [
+            f'<text x="{x + 24:.0f}" y="320" font-family="{SANS}" font-size="40" font-weight="900" font-style="italic" letter-spacing="-1.5" fill="#1a1a1a">{value}</text>',
+            f'<text x="{x + 24:.0f}" y="344" font-family="{MONO}" font-size="12" letter-spacing="2.5" fill="#77756e">{label}</text>',
+        ]
+    out.append("</svg>")
+    return "\n".join(out) + "\n"
 
 
 def splice(text, name, body):
@@ -119,7 +172,11 @@ def pretty(date):
 def update_readme(stats, posts, releases):
     text = open(README).read()
 
-    block = "".join(f'- [{p["title"]}]({p["link"]}) <sub>{p["date"]}</sub>\n' for p in posts).rstrip()
+    head = posts[0]
+    block = (
+        f'<a href="{head["link"]}"><img src="{head["image"]}" alt="{escape(head["title"], quote=True)}" width="100%"></a>\n\n'
+        + "".join(f'- [{p["title"]}]({p["link"]}) <sub>{p["date"]}</sub>\n' for p in posts)
+    ).rstrip()
     text = splice(text, "essays", block)
 
     block = "".join(
@@ -128,11 +185,6 @@ def update_readme(stats, posts, releases):
     ).rstrip()
     text = splice(text, "releases", block)
 
-    line = (
-        f'<sub>Vale so far: {compact(stats["downloads"])} downloads, {compact(stats["vale_stars"])} stars, '
-        f'{stats["releases"]} releases since 2017.</sub>'
-    )
-    text = splice(text, "stats", line)
     open(README, "w").write(text)
 
 
@@ -140,6 +192,8 @@ def main():
     stats = collect()
     os.makedirs(OUT, exist_ok=True)
     update_readme(stats, essays(), latest_releases())
+    with open(os.path.join(OUT, "banner.svg"), "w") as f:
+        f.write(banner(stats))
     with open(os.path.join(OUT, "stats.json"), "w") as f:
         json.dump(stats, f, indent=2, sort_keys=True)
         f.write("\n")
