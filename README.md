@@ -2,9 +2,9 @@
 
 [jdkato.io](https://jdkato.io) · [vale.sh](https://vale.sh) · [joseph@jdkato.io](mailto:joseph@jdkato.io) · [Sponsor](https://github.com/sponsors/jdkato)
 
-I'm Joseph. I make things and write about them.
+I'm Joseph, a mathematician and computational linguist who builds software for writing.
 
-The making is mostly [Vale](https://github.com/vale-cli), a linter that treats prose like code, and before that [prose](https://github.com/jdkato/prose), a Natural Language Processing library for Go. The writing is [data stories](https://jdkato.io): language, public data, and the small things worth counting.
+The making is mostly [Vale](https://github.com/vale-cli), a linter that treats prose like code, used by more than 390 companies and organizations. Before that came [prose](https://github.com/jdkato/prose), a Natural Language Processing library for Go that's built into [Hugo](https://gohugo.io/). The writing is [data stories](https://jdkato.io/stories) about language, law, and sports.
 
 <table><tr><td valign="top" width="50%">
 
@@ -38,15 +38,24 @@ On GitHub, the vocabulary everyone blames on language models is still climbing. 
 
 </td></tr></table>
 
-#### 📌 Elsewhere
+#### 🏆 Recognition
 
-* **[Write Better with Vale][3]**, a Pragmatic Bookshelf title on automating style guides.
+* **[GitHub Archive Program][2]**: prose is one of open source's "greatest hits," stored on archival film.
+* **[Write Better with Vale][3]**, a Pragmatic Bookshelf book by Brian P. Hogan, 2025.
+* **[FLOSS/fund][4]** grant, $10,000.
 * **[Google Open Source Peer Bonus][1]** recipient, 2023.
-* **[Appwrite OSS Fund][5]** grantee, one of twenty projects selected.
-* Want to talk prose linting, docs tooling, or a data story? Email me.
+* **[Appwrite OSS Fund][5]** grantee.
+* Featured in the **[Thoughtworks Technology Radar][6]**, [LWN.net][7], and [Linux Magazine][8].
+
+Want to talk prose linting, docs tooling, or a data story? Email me.
 
 <sub>Refreshed nightly by [`scripts/stats.py`](scripts/stats.py). Vale lints this README on every push.</sub>
 
 [1]: https://opensource.googleblog.com/2023/05/google-open-source-peer-bonus-program-announces-first-group-of-winners-2023.html
+[2]: https://archiveprogram.github.com/greatest-hits/
 [3]: https://pragprog.com/titles/bhvale/write-better-with-vale/
+[4]: https://floss.fund/blog/second-tranche-2025-anniversary/
 [5]: https://dev.to/appwrite/appwrite-oss-fund-sponsors-vale-4oig
+[6]: https://www.thoughtworks.com/radar/tools/vale
+[7]: https://lwn.net/Articles/964075/
+[8]: https://www.linux-magazine.com/Issues/2024/283/Vale-Style
