@@ -12,7 +12,6 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
-from html import escape
 
 GH_TOKEN = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
 ROOT = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
@@ -101,20 +100,8 @@ def essays(limit=4):
             "title": item.findtext("title"),
             "link": item.findtext("link"),
             "date": parsedate_to_datetime(item.findtext("pubDate")).strftime("%b %Y"),
-            "blurb": item.findtext("description"),
         })
-    out = out[:limit]
-    if out:
-        out[0]["image"] = og_image(out[0]["link"])
-    return out
-
-
-def og_image(url):
-    req = urllib.request.Request(url, headers={"User-Agent": "jdkato-profile-stats"})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        html = r.read().decode("utf-8", "replace")
-    m = re.search(r'property="og:image" content="([^"]+)"', html)
-    return m.group(1) if m else url.rstrip("/").replace("/stories/", "/og/") + ".png"
+    return out[:limit]
 
 
 def splice(text, name, body):
@@ -132,12 +119,7 @@ def pretty(date):
 def update_readme(stats, posts, releases):
     text = open(README).read()
 
-    head = posts[0]
-    block = (
-        f'<a href="{head["link"]}"><img src="{head["image"]}" alt="{escape(head["title"], quote=True)}" width="100%"></a>\n\n'
-        f'{escape(head["blurb"], quote=False)}\n\n'
-        + "".join(f'- [{p["title"]}]({p["link"]}) <sub>{p["date"]}</sub>\n' for p in posts)
-    ).rstrip()
+    block = "".join(f'- [{p["title"]}]({p["link"]}) <sub>{p["date"]}</sub>\n' for p in posts).rstrip()
     text = splice(text, "essays", block)
 
     block = "".join(
