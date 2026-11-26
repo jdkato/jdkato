@@ -35,8 +35,8 @@ I build software for writing. [Vale](https://github.com/vale-cli/vale), a linter
 #### Releases
 
 <!-- releases:start -->
+- [vale](https://github.com/vale-cli/vale) [v3.29.0](https://github.com/vale-cli/vale/releases/tag/v3.29.0) <sub>Nov 26, 2026</sub>
 - [prose](https://github.com/jdkato/prose) [v3.3.2](https://github.com/jdkato/prose/releases/tag/v3.3.2) <sub>Nov 20, 2026</sub>
-- [vale](https://github.com/vale-cli/vale) [v3.28.1](https://github.com/vale-cli/vale/releases/tag/v3.28.1) <sub>Nov 19, 2026</sub>
 - [vale-ls](https://github.com/vale-cli/vale-ls) [v0.6.0](https://github.com/vale-cli/vale-ls/releases/tag/v0.6.0) <sub>Oct 1, 2026</sub>
 - [packages](https://github.com/vale-cli/packages) [v0.5.0](https://github.com/vale-cli/packages/releases/tag/v0.5.0) <sub>Sep 28, 2026</sub>
 <!-- releases:end -->

@@ -8,7 +8,7 @@
 <rect x="124" y="58" width="12" height="12" fill="#3a9b3a"/>
 <rect x="136" y="58" width="12" height="12" fill="#8b7cf0"/>
 <text x="168" y="69" font-family="SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" letter-spacing="3" fill="#9a978d">JDKATO.IO  ·  VALE.SH</text>
-<text x="1136" y="69" text-anchor="end" font-family="SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" letter-spacing="3" fill="#9a978d">AS OF 2026-11-25</text>
+<text x="1136" y="69" text-anchor="end" font-family="SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" letter-spacing="3" fill="#9a978d">AS OF 2026-11-26</text>
 <line x1="64" y1="92" x2="1136" y2="92" stroke="#3a3833" stroke-width="2"/>
 <text x="60" y="196" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="96" font-weight="900" font-style="italic" letter-spacing="-4" fill="#f4f2ea">JOSEPH KATO</text>
 <text x="64" y="236" font-family="SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" letter-spacing="3" fill="#f4f2ea">MATHEMATICIAN  ·  COMPUTATIONAL LINGUIST  ·  SOFTWARE DEVELOPER</text>
@@ -19,7 +19,7 @@
 <text x="356" y="320" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="40" font-weight="900" font-style="italic" letter-spacing="-1.5" fill="#f4f2ea">6.4K</text>
 <text x="356" y="344" font-family="SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="2.5" fill="#9a978d">GITHUB STARS</text>
 <line x1="600" y1="286" x2="600" y2="346" stroke="#3a3833" stroke-width="2"/>
-<text x="624" y="320" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="40" font-weight="900" font-style="italic" letter-spacing="-1.5" fill="#f4f2ea">209</text>
+<text x="624" y="320" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="40" font-weight="900" font-style="italic" letter-spacing="-1.5" fill="#f4f2ea">210</text>
 <text x="624" y="344" font-family="SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="2.5" fill="#9a978d">RELEASES</text>
 <line x1="868" y1="286" x2="868" y2="346" stroke="#3a3833" stroke-width="2"/>
 <text x="892" y="320" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="40" font-weight="900" font-style="italic" letter-spacing="-1.5" fill="#f4f2ea">2017</text>
